@@ -9,6 +9,8 @@
         <module>Xia_Api</module>
         <module>Xia_Zuul</module>
         <module>Xia_Common</module>
+        <module>Xia_Entity</module>
+        <module>Xia_EurekaServer</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
