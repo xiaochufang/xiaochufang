@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: WashProvider
+  rabbitmq:
+    host: 139.129.229.36
+    port: 5672
+    username: guest
+    password: guest
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://10.8.155.62:3306/db_wc1906?serverTimezone=UTC
+    username: root
+    password: meng38286124
+    type: com.alibaba.druid.pool.DruidDataSource
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL57Dialect
+server:
+  port: 8901
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/  #注册中心的地址
+
