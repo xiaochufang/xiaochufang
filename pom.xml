@@ -28,7 +28,7 @@
 
         <spring-cloud.version>Hoxton.RC2</spring-cloud.version>
 
-        <redission.version>3.11.4</redission.version>
+        <redission.version>3.22.0</redission.version>
         <alioss.version>3.5.0</alioss.version>
         <mybatisboot.version>2.1.1</mybatisboot.version>
         <druid.version>1.1.20</druid.version>
